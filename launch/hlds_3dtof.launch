@@ -1,0 +1,22 @@
+<launch>
+  <node pkg="hlds_3dtof" type="hlds_3dtof_node" name="hlds_3dtof"
+        args="" required="true" output="screen" >
+	  <param name="inifilename" value="package://hlds_3dtof/tof.ini" />
+  </node>
+
+  <param name="ini_path" type="str" value="$(find hlds_3dtof)/launch/" />
+  <param name="sensor_angle_x" value="0" />
+  <param name="sensor_angle_y" value="0" />
+  <param name="sensor_angle_z" value="45" />
+  <param name="sensor_location_x" value="0" />
+  <param name="sensor_location_y" value="0" />
+  <param name="sensor_location_z" value="-2200" />
+  <param name="count_box_left" value="0" />
+  <param name="count_box_top" value="0" />
+  <param name="count_box_right" value="0" />
+  <param name="count_box_bottom" value="0" />
+
+<!--
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find hlds_3dtof)/launch/rviz_3d.rviz" />
+-->
+</launch>
