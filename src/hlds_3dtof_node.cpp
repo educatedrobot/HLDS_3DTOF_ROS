@@ -2,8 +2,8 @@
  * Copyright (C) 2017, Hitachi-LG Data Storage, Inc. (HLDS)
  * All rights reserved.
  *
- * The source code and distribution files contained are CONFIDENTIAL
- * Hitachi and HLDS and restricted to the signed NDA
+ * The source code and distribution files licensed under
+ * the 2-Clause BSD license as Open Source.
  */
 
 /**
